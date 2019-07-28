@@ -36,6 +36,8 @@ class ChatBar extends Component {
             <h1>Your message</h1>
             <textarea className="chatbar-text" />
           </div>
+          <br />
+          <button className="chatbar-button">Submit comment</button>
         </form>
       </div>
     );
