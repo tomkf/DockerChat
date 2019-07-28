@@ -36,24 +36,21 @@ import ChatBar from "./ChatBar";
 import MessageList from "./MessageList";
 
 class App extends Component {
-  
   constructor(props) {
-  
-    super(props)
+    super(props);
     this.state = {
       messages: [] // local storage
     };
-
+  }
 
   render() {
     return (
       <div>
-        < MessageList messages = {this.state.messages} />
+        <MessageList messages={this.state.messages} />
         <ChatBar />
       </div>
     );
   }
-}
 }
 
 export default App;
