@@ -32,13 +32,23 @@
 // export default App;
 
 import React, { Component } from "react";
-import Chat from "./Chat";
+import ChatBar from "./ChatBar";
+import MessageList from "./MessageList";
 
 class App extends Component {
+  
+  constructor(props) {
+  
+    super(props)
+    this.state = {
+      messages: [] // local storage
+    };
+
+
   render() {
     return (
       <div>
-        <Chat />
+        <ChatBar />
       </div>
     );
   }
