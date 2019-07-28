@@ -48,10 +48,12 @@ class App extends Component {
   render() {
     return (
       <div>
+        < MessageList messages = {this.state.messages} />
         <ChatBar />
       </div>
     );
   }
+}
 }
 
 export default App;
