@@ -12,7 +12,7 @@
 
 // alias:
 // alias mysql=/usr/local/mysql/bin/mysql
-// // alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+// alias mysqladmin=/usr/local/mysql/bin/mysqladmin
 // Welcome to the MySQL monitor.  Commands end with ; or \g.
 // Your MySQL connection id is 13
 // Server version: 8.0.17-commercial MySQL Enterprise Server - Commercial
