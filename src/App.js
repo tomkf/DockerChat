@@ -31,23 +31,38 @@
 
 // export default App;
 
+// import React, { Component } from "react";
+// import ChatBar from "./ChatBar";
+// import MessageList from "./MessageList";
+
+// class App extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       messages: [] // local storage
+//     };
+//   }
+
+//   render() {
+//     return (
+//       <div>
+//         <MessageList messages={this.state.messages} />
+//         <ChatBar />
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
+
 import React, { Component } from "react";
-import ChatBar from "./ChatBar";
-import MessageList from "./MessageList";
+import Chat from "./Chat";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      messages: [] // local storage
-    };
-  }
-
   render() {
     return (
       <div>
-        <MessageList messages={this.state.messages} />
-        <ChatBar />
+        <Chat />
       </div>
     );
   }
